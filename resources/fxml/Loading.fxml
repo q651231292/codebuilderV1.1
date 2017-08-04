@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ProgressIndicator layoutX="264.0" layoutY="149.0" AnchorPane.bottomAnchor="201.0" AnchorPane.leftAnchor="264.0" AnchorPane.rightAnchor="263.0" AnchorPane.topAnchor="149.0" />
+      <Label layoutX="270.0" layoutY="216.0" text="正在加载中" />
+   </children>
+</AnchorPane>

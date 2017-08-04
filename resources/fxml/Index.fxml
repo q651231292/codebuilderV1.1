@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codebuilder.controller.IndexController">
+   <children>
+      <Label contentDisplay="CENTER" layoutX="49.0" layoutY="14.0" text="代码生成器">
+         <font>
+            <Font size="96.0" />
+         </font>
+      </Label>
+      <Button fx:id="diyTemp" layoutX="61.0" layoutY="135.0" mnemonicParsing="false" onAction="#diyTempTo" prefHeight="61.0" prefWidth="455.0" text="自定义模板" />
+      <Button fx:id="createCode" layoutX="62.0" layoutY="219.0" mnemonicParsing="false" onAction="#createCodeTo" prefHeight="61.0" prefWidth="455.0" text="生成代码" />
+   </children>
+</AnchorPane>

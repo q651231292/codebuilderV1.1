@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codebuilder.controller.code.TempSelectController">
+   <children>
+      <Label fx:id="title" contentDisplay="CENTER" layoutX="14.0" layoutY="14.0" text="请选择模板" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <HBox layoutX="20.0" layoutY="66.0" nodeOrientation="LEFT_TO_RIGHT" AnchorPane.leftAnchor="20.0">
+         <children>
+            <Button fx:id="selectBtn" layoutX="21.0" layoutY="66.0" mnemonicParsing="false" onAction="#selectTemp" text="选择模板" AnchorPane.leftAnchor="20.0" />
+         </children>
+      </HBox>
+      <TableView fx:id="tempList" layoutX="26.0" layoutY="102.0" prefHeight="280.0" prefWidth="539.0" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" AnchorPane.rightAnchor="20.0">
+        <columns>
+          <TableColumn fx:id="tempCol" prefWidth="513.0" text="模板" />
+        </columns>
+      </TableView>
+      <Button layoutX="530.0" layoutY="26.0" mnemonicParsing="false" onAction="#back" prefHeight="20.0" prefWidth="50.0" text="返回" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="26.0" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="codebuilder.controller.code.CodeCreateController">
+   <children>
+      <HBox layoutX="451.0" layoutY="26.0" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="26.0">
+         <children>
+            <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" text="重置" />
+            <Button mnemonicParsing="false" text="重置全部">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+            <Button layoutX="451.0" layoutY="26.0" mnemonicParsing="false" onAction="#createCode" text="生成代码">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin></Button>
+            <Button layoutX="540.0" layoutY="75.0" mnemonicParsing="false" onAction="#back" prefHeight="20.0" prefWidth="50.0" text="返回" AnchorPane.rightAnchor="20.0" AnchorPane.topAnchor="26.0">
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+            </Button>
+         </children>
+      </HBox>
+      <Label contentDisplay="CENTER" layoutX="24.0" layoutY="24.0" text="输入参数,生成代码" AnchorPane.leftAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <VBox fx:id="vbox" layoutX="18.0" layoutY="67.0" prefHeight="86.0" prefWidth="565.0" styleClass="vbox">
+         <opaqueInsets>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </opaqueInsets>
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>
