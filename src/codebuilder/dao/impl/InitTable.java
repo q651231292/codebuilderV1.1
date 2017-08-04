@@ -1,4 +1,4 @@
-package rcu;
+package codebuilder.dao.impl;
 
 import java.util.List;
 import java.util.Map;

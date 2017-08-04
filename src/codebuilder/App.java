@@ -12,8 +12,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import rcu.InitTable;
+import codebuilder.dao.impl.InitTable;
 
+/**
+ * 测试
+ */
 public class App extends Application {
 
 	public static Stage stage;
